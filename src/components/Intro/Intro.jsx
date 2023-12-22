@@ -12,7 +12,9 @@ const Intro = () => {
         
         <span className='introText'>I'm <span className='introName'>Divyesh</span><br/> Frontend Developer</span>
         <p className='introPara'> Let's build something amazing together! Feel free to reach out for frontend magic that goes beyond pixels and lines of code. Together, let's create digitalexperiences that leave a lasting impression. </p>
-        <Link><button className='btn'><img src={btnImg}  className='btnImg' alt='Hire'/> <h4>Hire Me</h4></button></Link>
+        <Link><button className='btn'onClick={()=>{
+            document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});
+        }}><img src={btnImg}  className='btnImg' alt='Hire' /> <h4>Hire Me</h4></button></Link>
 
      </div>
      <div class="lol">

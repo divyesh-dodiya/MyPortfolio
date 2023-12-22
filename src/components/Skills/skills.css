@@ -96,17 +96,19 @@
     justify-content: space-around;
     flex-direction: column;
     margin: 1rem;
-    height: 10rem;
+    height: 12rem;
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     background: rgb(50,50,50);
     transition: background 0.5s, transform 0.5s;
+    border: 0.5px solid yellow;
 }
 
 .skillBar:hover{
     background:rgb(0, 0, 0);
     transform: translateY(-15px);
     color: yellow;
+    border: none;
 }
 .skillBarImg{
     object-fit: cover;
@@ -135,7 +137,7 @@
         
         margin: 1rem;
         width: 12rem;
-        height: 9rem;
+        height: 7rem;
         padding: 8rem 4rem;
         
     }

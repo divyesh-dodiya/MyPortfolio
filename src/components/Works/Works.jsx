@@ -60,7 +60,7 @@ function Works() {
                 <div className='work'>
                     <img src={Pro_6} alt='Project_1'/>
                     <div className='layer'>
-                        <h3>ReactJS</h3>
+                        <h3> ReactJS </h3>
                         <p>E-Commerce Clone</p>
                         <a href='https://gowithtrendly.netlify.app/'><img src={Links_1}/></a>
                     </div>
