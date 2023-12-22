@@ -1,0 +1,93 @@
+#contactPage{
+    min-height: calc((100vh - 4rem));
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.ContactDesc{
+    padding: 1rem;
+    font-weight: 300;
+    font-size: medium;
+
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border:none;
+    border-bottom: 0.5px solid yellow;
+    border-radius: 0.5rem;
+    background:rgb(40,40,40);
+}
+
+.submitBtn{
+    background: #fff;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+}
+
+.links{
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+
+.link{
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+   border: 0.5px solid #fff;
+    border-radius: 50%;
+    margin: 0 0.75rem;
+    
+    /* border-radius: 55%; */
+
+}
+
+#gh,#twit{
+    background: rgb(176, 176, 176);
+}
+
+.link:hover{
+    box-shadow:   0 4px 8px 0 rgba(255, 255, 0	, 0.2), 0 6px 20px 0 rgba(255, 255, 0	, 0.5);;
+}
+
+@media screen and (max-width:500px) {
+    
+    .contactPageTitle{
+        font-size: 2rem;
+       
+    
+    }   
+    
+}
